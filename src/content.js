@@ -1,60 +1,81 @@
 replacements = [
-  {'find': /\bHomeopatía\b/g, 'replace': "Gominola [Homeopatía]"},
-  {'find': /\bhomeopatía\b/g, 'replace': "gominola [homeopatía]"},
+  {'find': 'Homeopatía', 'replace': 'Gominola [Homeopatía]'},
+  {'find': 'homeopatía', 'replace': 'gominola [homeopatía]'},
+  {'find': 'Homeopatia', 'replace': 'Gominola [Homeopatía]'},
+  {'find': 'homeopatia', 'replace': 'gominola [homeopatía]'},
 
-  {'find': /\bHomeópata\b/g, 'replace': "Vendedor de chuches [Homeópata]"},
-  {'find': /\bhomeópata\b/g, 'replace': "vendedor de chuches [homeópata]"},
-  {'find': /\bHomeópatas\b/g, 'replace': "Vendedores de chuches [Homeópatas]"},
-  {'find': /\bhomeópatas\b/g, 'replace': "Vendedores de chuches [homeópatas]"},
+  {'find': 'Homeópata', 'replace': 'Vendedor de chuches [Homeópata]'},
+  {'find': 'homeópata', 'replace': 'vendedor de chuches [homeópata]'},
+  {'find': 'Homeópatas', 'replace': 'Vendedores de chuches [Homeópatas]'},
+  {'find': 'homeópatas', 'replace': 'Vendedores de chuches [homeópatas]'},
+  {'find': 'Homeopata', 'replace': 'Vendedor de chuches [Homeópata]'},
+  {'find': 'homeopata', 'replace': 'vendedor de chuches [homeópata]'},
+  {'find': 'Homeopatas', 'replace': 'Vendedores de chuches [Homeópatas]'},
+  {'find': 'homeopatas', 'replace': 'Vendedores de chuches [homeópatas]'},
 
-  {'find': /\bDetox\b/g, 'replace': "Timo [Detox]"},
-  {'find': /\bdetox\b/g, 'replace': "timo [detox]"},
+  {'find': 'producto homeopático', 'replace': 'chuche [producto homeopático]'},
+  {'find': 'Producto homeopático', 'replace': 'Chuche [Producto homeopático]'},
+  {'find': 'productos homeopáticos', 'replace': 'chuches [productos homeopáticos]'},
+  {'find': 'Productos homeopáticos', 'replace': 'Chuches [Producto homeopáticos]'},
+  {'find': 'producto homeopatico', 'replace': 'chuche [producto homeopático]'},
+  {'find': 'Producto homeopatico', 'replace': 'Chuche [Producto homeopático]'},
+  {'find': 'productos homeopaticos', 'replace': 'chuches [productos homeopáticos]'},
+  {'find': 'Productos homeopaticos', 'replace': 'Chuches [Producto homeopáticos]'},
 
-  {'find': /\bJosep Pàmies\b/g, 'replace': "el Hierbas [Josep Pamiès]"},
-  {'find': /\bJosep Pamies\b/g, 'replace': "el Hierbas [Josep Pamiès]"},
-  {'find': /\bjosep pamies\b/g, 'replace': "el Hierbas [Josep Pamiès]"},
+  {'find': 'Detox', 'replace': 'Timo [Detox]'},
+  {'find': 'detox', 'replace': 'timo [detox]'},
 
-  {'find': /\bMovimiento antivacunas\b/g, 'replace': "Movimiento anticientífico promedieval [Movimiento antivacunas]"},
-  {'find': /\bmovimiento antivacunas\b/g, 'replace': "Movimiento anticientífico promedieval [movimiento antivacunas]"},
+  {'find': 'Josep Pàmies', 'replace': 'el Hierbas [Josep Pamiès]'},
+  {'find': 'Josep Pamies', 'replace': 'el Hierbas [Josep Pamiès]'},
+  {'find': 'josep pamies', 'replace': 'el Hierbas [Josep Pamiès]'},
 
-  {'find': /\bAstrología\b/g, 'replace': "Absurda convicción de que nuestro destino depende de la posición de las estrellas al nacer [Astrología]"},
-  {'find': /\bastrología\b/g, 'replace': "absurda convicción de que nuestro destino depende de la posición de las estrellas al nacer [astrología]"},
+  {'find': 'Movimiento antivacunas', 'replace': 'Movimiento anticientífico promedieval [Movimiento antivacunas]'},
+  {'find': 'movimiento antivacunas', 'replace': 'Movimiento anticientífico promedieval [movimiento antivacunas]'},
 
-  {'find': /\bMedicina alternativa\b/g, 'replace': "\"Medicina\" de mentirijillas  [Medicina alternativa]"},
-  {'find': /\bmedicina alternativa\b/g, 'replace': "\"medicina\" de mentirijillas  [medicina alternativa]"},
+  {'find': 'Astrología', 'replace': 'Absurda convicción de que nuestro destino depende de la posición de las estrellas al nacer [Astrología]'},
+  {'find': 'astrología', 'replace': 'absurda convicción de que nuestro destino depende de la posición de las estrellas al nacer [astrología]'},
+  {'find': 'Astrologia', 'replace': 'Absurda convicción de que nuestro destino depende de la posición de las estrellas al nacer [Astrología]'},
+  {'find': 'astrologia', 'replace': 'absurda convicción de que nuestro destino depende de la posición de las estrellas al nacer [astrología]'},
 
-  {'find': /\bterapia alternativa\b/g, 'replace': "\"medicina\" de mentirijillas  [Terapia alternativa]"},
-  {'find': /\bTerapia alternativa\b/g, 'replace': "\"Medicina\" de mentirijillas  [terapia alternativa]"},
+  {'find': 'Medicina alternativa', 'replace': '\'Medicina\' de mentirijillas  [Medicina alternativa]'},
+  {'find': 'medicina alternativa', 'replace': '\'medicina\' de mentirijillas  [medicina alternativa]'},
 
-  {'find': /\bTerapia complementaria\b/g, 'replace': "\"Medicina\" de mentirijillas  [Terapia complementaria]"},
-  {'find': /\bterapia complementaria\b/g, 'replace': "\"medicina\" de mentirijillas  [terapia complementaria]"},
+  {'find': 'terapia alternativa', 'replace': '\'medicina\' de mentirijillas  [Terapia alternativa]'},
+  {'find': 'Terapia alternativa', 'replace': '\'Medicina\' de mentirijillas  [terapia alternativa]'},
 
-  {'find': /\bMedicinas alternativas\b/g, 'replace': "\"Medicina\" de mentirijillas  [Medicinas alternativas]"},
-  {'find': /\bmedicinas alternativas\b/g, 'replace': "\"medicina\" de mentirijillas  [medicinas alternativas]"},
+  {'find': 'Terapia complementaria', 'replace': '\'Medicina\' de mentirijillas  [Terapia complementaria]'},
+  {'find': 'terapia complementaria', 'replace': '\'medicina\' de mentirijillas  [terapia complementaria]'},
 
-  {'find': /\bterapias alternativas\b/g, 'replace': "\"medicina\" de mentirijillas  [Terapias alternativas]"},
-  {'find': /\bTerapias alternativas\b/g, 'replace': "\"Medicina\" de mentirijillas  [terapias alternativas]"},
+  {'find': 'Medicinas alternativas', 'replace': '\'Medicina\' de mentirijillas  [Medicinas alternativas]'},
+  {'find': 'medicinas alternativas', 'replace': '\'medicina\' de mentirijillas  [medicinas alternativas]'},
 
-  {'find': /\bTerapias complementarias\b/g, 'replace': "\"Medicina\" de mentirijillas  [Terapias complementarias]"},
-  {'find': /\bterapias complementarias\b/g, 'replace': "\"medicina\" de mentirijillas  [terapias complementarias]"},
+  {'find': 'terapias alternativas', 'replace': '\'medicina\' de mentirijillas  [Terapias alternativas]'},
+  {'find': 'Terapias alternativas', 'replace': '\'Medicina\' de mentirijillas  [terapias alternativas]'},
 
-  {'find': /\bTerapias complementarias\b/g, 'replace': "\"Medicina\" de mentirijillas  [Terapias complementarias]"},
-  {'find': /\bterapias complementarias\b/g, 'replace': "\"medicina\" de mentirijillas  [terapias complementarias]"},
+  {'find': 'Terapias complementarias', 'replace': '\'Medicina\' de mentirijillas  [Terapias complementarias]'},
+  {'find': 'terapias complementarias', 'replace': '\'medicina\' de mentirijillas  [terapias complementarias]'},
 
-  {'find': /\bReiki\b/g, 'replace': "\"Curar\" acercando las manos [Reiki]"},
-  {'find': /\breiki\b/g, 'replace': "\"curar\" acercando las manos [reiki]"},
+  {'find': 'Terapias complementarias', 'replace': '\'Medicina\' de mentirijillas  [Terapias complementarias]'},
+  {'find': 'terapias complementarias', 'replace': '\'medicina\' de mentirijillas  [terapias complementarias]'},
 
-  {'find': /\bAstrólogo\b/g, 'replace': "Iluminado de las estrellas [Astrólogo]"},
-  {'find': /\bastrólogo\b/g, 'replace': "iluminado de las estrellas [astrólogo]"},
+  {'find': 'Reiki', 'replace': '\'Curar\' acercando las manos [Reiki]'},
+  {'find': 'reiki', 'replace': '\'curar\' acercando las manos [reiki]'},
 
-  {'find': /\bTarot\b/g, 'replace': "El absurdo convencimiento de que nuestro destino depende de lo que diga una baraja de cartas [Tarot]"},
-  {'find': /\btarot\b/g, 'replace': "el abusrdo convencimiento de que nuestro destino depende de lo que diga una baraja de cartas [Tarot]"},
+  {'find': 'Astrólogo', 'replace': 'Iluminado de las estrellas [Astrólogo]'},
+  {'find': 'astrólogo', 'replace': 'iluminado de las estrellas [astrólogo]'},
+  {'find': 'Astrologo', 'replace': 'Iluminado de las estrellas [Astrólogo]'},
+  {'find': 'astrologo', 'replace': 'iluminado de las estrellas [astrólogo]'},
 
-  {'find': /\bTarotista\b/g, 'replace': "Charlatán de las cartas [Tarotista]"},
-  {'find': /\btarotista\b/g, 'replace': "charlatán de las cartas [tarotista]"},
+  {'find': 'Tarot', 'replace': 'El absurdo convencimiento de que nuestro destino depende de lo que diga una baraja de cartas [Tarot]'},
+  {'find': 'tarot', 'replace': 'el abusrdo convencimiento de que nuestro destino depende de lo que diga una baraja de cartas [Tarot]'},
 
-  {'find': /\bHoróscopo\b/g, 'replace': "El absurdo convencimiento de que nuestro destino depende de la posición de las estrellas al nacer [Horóscopo]"},
-  {'find': /\bhoróscopo\b/g, 'replace': "el absurdo convencimiento de que nuestro destino depende de la posición de las estrellas al nacer [horóscopo]"}
+  {'find': 'Tarotista', 'replace': 'Charlatán de las cartas [Tarotista]'},
+  {'find': 'tarotista', 'replace': 'charlatán de las cartas [tarotista]'},
+
+  {'find': 'Horóscopo', 'replace': 'El absurdo convencimiento de que nuestro destino depende de la posición de las estrellas al nacer [Horóscopo]'},
+  {'find': 'horóscopo', 'replace': 'el absurdo convencimiento de que nuestro destino depende de la posición de las estrellas al nacer [horóscopo]'},
+  {'find': 'Horoscopo', 'replace': 'El absurdo convencimiento de que nuestro destino depende de la posición de las estrellas al nacer [Horóscopo]'},
+  {'find': 'horoscopo', 'replace': 'el absurdo convencimiento de que nuestro destino depende de la posición de las estrellas al nacer [horóscopo]'}
 ];
 
 
