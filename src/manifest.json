@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Chuches Magufas",
+    "version": "0.1",
+    "author": "David Barragán Merino (@bameda)",
+    "description": "A funny Chrome extensión to get away 'magufadas': paranormal phenomena and pseudosciences. (Inspired by Maldita Ciencia).",
+    "homepage_url": "https://github.com/bameda/chrome-ext-chuches-magufas",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png",
+        "256": "icons/icon256.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["libs/findAndReplaceDOMText.js", "content.js"],
+            "all_frames": true
+        }
+    ]
+}
